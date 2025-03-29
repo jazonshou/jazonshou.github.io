@@ -68,7 +68,7 @@ author:
     #   url: "https://twitter.com/"
     - label: "Email"
       icon: "fa fa-envelope-square"
-      url: "jzhou44@cs.washington.edu"
+      url: "mailto:jzhou44@cs.washington.edu"
     - label: "LinkedIn"
       icon: "fab fa fa-linkedin"
       url: "https://linkedin.com/in/jasonlz/"
@@ -83,7 +83,7 @@ footer:
   links:
     - label: "Email"
       icon: "fa fa-envelope-square"
-      url: "jzhou44@cs.washington.edu"
+      url: "mailto:jzhou44@cs.washington.edu"
     - label: "LinkedIn"
       icon: "fab fa fa-linkedin"
       url: "https://linkedin.com/in/jasonlz/"
