@@ -13,12 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jason Zhou
+title: JZ
 email: jzhou44@cs.washington.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Computer Science student at the University of Washington. 
 twitter_username: 
 github_username: jazonshou
 minimal_mistakes_skin: dark
@@ -60,7 +58,7 @@ plugins:
 author:
   name   : "Jason Zhou"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "CS + Robotics @ Unviersity of Washington"
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
@@ -68,11 +66,14 @@ author:
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
+    - label: "Email"
+      icon: "fa fa-envelope-square"
+      url: "jzhou44@cs.washington.edu"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fab fa fa-linkedin"
       url: "https://linkedin.com/in/jasonlz/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa fa-github-alt"
       url: "https://github.com/jazonshou/"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
@@ -80,12 +81,15 @@ author:
 
 footer:
   links:
+    - label: "Email"
+      icon: "fa fa-envelope-square"
+      url: "jzhou44@cs.washington.edu"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fab fa fa-linkedin"
       url: "https://linkedin.com/in/jasonlz/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      icon: "fab fa fa-github-alt"
+      url: "https://github.com/jazonshou/"
 
 defaults:
   # _posts
@@ -104,7 +108,7 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      layout: single
+      layout: splash
       author_profile: true
 
 category_archive:
