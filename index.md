@@ -11,4 +11,5 @@ Science.
 
 I'm interested in the applications of Computer Science within robotics and embodied AI. 
 I have experience with embedded systems, object-oriented programming, and application development
-from various projects, extracurriculars, and coursework. 
+from various projects, extracurriculars, and coursework. Check out my [projects](projects) for
+more information!

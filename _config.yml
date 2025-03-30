@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: JZ
+title: Jason Zhou
 email: jzhou44@cs.washington.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Computer Science student at the University of Washington. 
@@ -60,12 +60,6 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "CS + Robotics @ Unviersity of Washington"
   links:
-    # - label: "Website"
-    #   icon: "fas fa-fw fa-link"
-    #   url: "https://"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
     - label: "Email"
       icon: "fa fa-envelope-square"
       url: "mailto:jzhou44@cs.washington.edu"
@@ -75,21 +69,18 @@ author:
     - label: "GitHub"
       icon: "fab fa fa-github-alt"
       url: "https://github.com/jazonshou/"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
 
 footer:
   links:
-    - label: "Email"
-      icon: "fa fa-envelope-square"
-      url: "mailto:jzhou44@cs.washington.edu"
-    - label: "LinkedIn"
-      icon: "fab fa fa-linkedin"
-      url: "https://linkedin.com/in/jasonlz/"
-    - label: "GitHub"
-      icon: "fab fa fa-github-alt"
-      url: "https://github.com/jazonshou/"
+    # - label: "Email"
+    #   icon: "fa fa-envelope-square"
+    #   url: "mailto:jzhou44@cs.washington.edu"
+    # - label: "LinkedIn"
+    #   icon: "fab fa fa-linkedin"
+    #   url: "https://linkedin.com/in/jasonlz/"
+    # - label: "GitHub"
+    #   icon: "fab fa fa-github-alt"
+    #   url: "https://github.com/jazonshou/"
 
 defaults:
   # _posts
