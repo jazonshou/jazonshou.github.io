@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Jason Zhou"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/bio-photo.jpeg"
   bio    : "CS + Robotics @ Unviersity of Washington"
   links:
     - label: "Email"
