@@ -1,3 +1,3 @@
 # jazonshou.github.io
 
-Powered by Jekyll & Minimal Mistakes. 
+Personal website. The whole site is `index.html`; images live in `assets/images/`.
