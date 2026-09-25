@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jason Zhou</title>
+<meta name="description" content="Computer Science student at the University of Washington.">
+</head>
+<body>
+
+<table width="70%" cellpadding="0" cellspacing="0"><tr><td>
+
+<table width="100%" border="1" rules="all" bordercolor="black" cellpadding="8">
+  <tr>
+    <td rowspan="3" width="20%"><img src="assets/images/bio-photo.jpeg" width="100%" alt="Jason Zhou"></td>
+    <td><h1>Jason Zhou</h1></td>
+  </tr>
+  <tr>
+    <td>jzhou44 [at] cs [dot] washington [dot] edu</td>
+  </tr>
+  <tr>
+    <td><a href="https://linkedin.com/in/jasonlz/">LinkedIn</a> | <a href="https://github.com/jazonshou/">GitHub</a></td>
+  </tr>
+</table>
+
+<ul>
+  <li><a href="#about">About</a></li>
+  <li><a href="#projects">Projects</a></li>
+</ul>
+
+<h2 id="about">About</h2>
+<table width="100%" border="1" rules="all" bordercolor="black" cellpadding="8">
+  <tr>
+    <td>👋 Hello, I'm Jason! I'm an undergraduate at the University of Washington studying Computer Science.</td>
+  </tr>
+  <tr>
+    <td>I'm interested in the applications of Computer Science within robotics and embodied AI. I have experience with
+      embedded systems, object-oriented programming, and application development from various projects,
+      extracurriculars, and coursework.</td>
+  </tr>
+</table>
+
+<h2 id="projects">Projects</h2>
+<table width="100%" border="1" rules="all" bordercolor="black" cellpadding="8">
+  <tr id="fly-high">
+    <td rowspan="3" width="40%"><a href="https://jazonshou.github.io/fly-high/"><img src="assets/images/fly-high.jpg" width="100%" alt="Fly High chase view of the plane over trees and water at sunset" loading="lazy"></a></td>
+    <td><h3>Fly High</h3></td>
+  </tr>
+  <tr>
+    <td>An endless-flight simulator in the browser. Fly a small plane over a procedurally generated world of terrain,
+      forests, rivers, ocean, weather, and a real day and night sky. The world comes from a seed, so sharing the URL
+      shares the exact same world. Built with TypeScript, React, and Babylon.js on WebGPU.</td>
+  </tr>
+  <tr>
+    <td><a href="https://jazonshou.github.io/fly-high/">Play it</a> (needs a WebGPU browser) | <a href="https://github.com/jazonshou/fly-high">GitHub</a></td>
+  </tr>
+
+  <tr id="zuck">
+    <td rowspan="3"><img src="assets/images/zuck-wake-word.png" width="100%" alt="DET curve for the Hey Zuck wake word" loading="lazy"></td>
+    <td><h3>Zuck (Local LLM Voice Assistant)</h3></td>
+  </tr>
+  <tr>
+    <td>A self-hosted voice assistant. A Raspberry Pi listens for a custom-trained "Hey Zuck" wake word and streams
+      audio to a GPU server running streaming speech-to-text, an LLM, and text-to-speech. Pictured: the wake word
+      model's DET curve (94.3% recall at 0.27 false wakes per hour).</td>
+  </tr>
+  <tr>
+    <td>Source code is private... for now :)</td>
+  </tr>
+
+  <tr id="holonomiclib">
+    <td rowspan="3">
+      <a href="https://youtu.be/jp1LXxvW4yo"><img src="assets/images/s_curve.gif" width="100%" alt="Spline translation with changing heading" loading="lazy"></a><br>
+      <a href="https://youtu.be/jArjx3Lgaqg"><img src="assets/images/c_curve.gif" width="100%" alt="Spline translation with no change in heading" loading="lazy"></a>
+    </td>
+    <td><h3>HolonomicLib</h3></td>
+  </tr>
+  <tr>
+    <td>A C++ motion planning library for holonomic drives, with API documentation and step-by-step guides for
+      getting started. Top: spline translation with changing heading. Bottom: spline translation with no change in
+      heading.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/jazonshou/HolonomicLib">GitHub</a> |
+      <a href="https://jazonshou.github.io/HolonomicLib/index.html">API docs</a> |
+      <a href="https://holonomiclibdocs.readthedocs.io/en/latest/index.html">Guides</a> |
+      <a href="https://youtu.be/jp1LXxvW4yo">Video 1</a> |
+      <a href="https://youtu.be/jArjx3Lgaqg">Video 2</a></td>
+  </tr>
+
+  <tr id="path-generation">
+    <td rowspan="3"><a href="https://youtu.be/dLqRS37pCEk"><img src="assets/images/Spline-Gen-Simulator_Short.gif" width="100%" alt="Spline generation simulator" loading="lazy"></a></td>
+    <td><h3>On-the-fly Path Generation</h3></td>
+  </tr>
+  <tr>
+    <td>Generates motion profiles based on spline paths at any location on the field. Generated paths avoid "no-go"
+      zones where the robot cannot be (i.e. the white platform).</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/TASRobotics/Spline-Simulation">GitHub</a> | <a href="https://youtu.be/dLqRS37pCEk">Full video</a></td>
+  </tr>
+
+  <tr id="sensor-fusion">
+    <td rowspan="3"><img src="assets/images/april_tags.png" width="100%" alt="AprilTag localization" loading="lazy"></td>
+    <td><h3>Sensor Fusion Localization</h3></td>
+  </tr>
+  <tr>
+    <td>Combines dead-reckoning with AprilTag-based visual odometry using a Kalman filter.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/TASRobotics/RaidZero-FRC-2024">GitHub</a></td>
+  </tr>
+
+  <tr id="graphy">
+    <td rowspan="3"><img src="assets/images/IMG_3933.png" width="100%" alt="Graphy example" loading="lazy"></td>
+    <td><h3>Graphy</h3></td>
+  </tr>
+  <tr>
+    <td>A C++ graphing library for robotics, with a simple graphing interface for data visualization.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/jazonshou/Graphy">GitHub</a></td>
+  </tr>
+
+  <tr id="bezier">
+    <td rowspan="3"><img src="assets/images/bezier.png" width="100%" alt="Bezier curve visualizer" loading="lazy"></td>
+    <td><h3>Bezier Curve Visualizer/Generator</h3></td>
+  </tr>
+  <tr>
+    <td>Generates constants for bezier curves. Built with pygame.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/jazonshou/4253B-Bezier-Visualizer">GitHub</a></td>
+  </tr>
+
+  <tr id="audiobook">
+    <td rowspan="3">
+      <img src="assets/images/Index.jpeg" width="31%" alt="Fable index" loading="lazy">
+      <img src="assets/images/Example%20Fable%20English.jpeg" width="31%" alt="Example fable in English" loading="lazy">
+      <img src="assets/images/Example%20Fable%20Mandarin.png" width="31%" alt="Example fable in Mandarin" loading="lazy">
+    </td>
+    <td><h3>Bilingual Audiobook App for Aesop Fables</h3></td>
+  </tr>
+  <tr>
+    <td>An English and Mandarin audiobook app for Aesop's Fables. Created with Android Studio.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/jazonshou/Audiobook-Eagle-Project">GitHub</a></td>
+  </tr>
+</table>
+
+<p>&copy; 2024 Jason Zhou</p>
+
+<!-- spacer: keeps the page at least 340px wide, so phones get close to full width -->
+<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="340" height="1" alt="">
+
+</td></tr></table>
+
+</body>
+</html>
